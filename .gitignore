@@ -3,7 +3,12 @@
 /build/
 .idea/
 /build/classes/java/main/
+
+
+#compiled files, bnaries, archives
+*.class
+
+
+#gradle files to keep
 !gradle-wrapper.jar
 !gradle-wrapper.properties
-
-*.class
