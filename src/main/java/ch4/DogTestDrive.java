@@ -6,17 +6,17 @@ public class DogTestDrive {
         Dog dogOne = new Dog();
         dogOne.name = "Alfredo";
         dogOne.size = 71;
-        dogOne.bark();
+        dogOne.bark(1);
 
         Dog dogTwo = new Dog();
         dogTwo.name = "Butcher";
         dogTwo.size = 30;
-        dogTwo.bark();
+        dogTwo.bark(2);
 
         Dog dogThree = new Dog();
         dogThree.name = "Killer";
         dogThree.size = 7;
-        dogThree.bark();
+        dogThree.bark(3);
 
 
     }
