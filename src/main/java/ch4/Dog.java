@@ -8,13 +8,14 @@ public class Dog {
     public String name;
 
     public void bark(int numOfBarks) {
+        lprint(name + " says ");
         while (numOfBarks > 0) {
             if (size > 60) {
-                lprint(name + " says Wuff! Wuff!");
+                lprint("Wuff! Wuff!");
             } else if (size > 14) {
-                lprint(name + " says Ruff! Ruff!");
+                lprint("Ruff! Ruff!");
             } else {
-                lprint(name + " says Yip! Yip!");
+                lprint("Yip! Yip!");
             }
             numOfBarks = numOfBarks - 1;
         }
