@@ -1,8 +1,12 @@
 # Project exclude paths
-/.gradle/
+.gradle/
 /build/
 .idea/
 /build/classes/java/main/
+./idea/
+.project
+.settings/
+.classpath
 
 
 #compiled files, bnaries, archives
